@@ -6,7 +6,7 @@ test('Validate navigation to test url', async ({ page }) => {
 
 
   // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle(/Google/);
+  await expect(page).toHaveTitle(/Google.com/);
 });
 
 test('get started link', async ({ page }) => {
